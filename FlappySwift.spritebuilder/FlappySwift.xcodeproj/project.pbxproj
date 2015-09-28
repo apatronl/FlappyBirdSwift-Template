@@ -95,6 +95,7 @@
 		DFE49C121B86DC7A006FD35E /* Character.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFE49C111B86DC7A006FD35E /* Character.swift */; };
 		DFE49C141B86DC9A006FD35E /* Obstacle.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFE49C131B86DC9A006FD35E /* Obstacle.swift */; };
 		DFE49C161B86DCB3006FD35E /* Goal.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFE49C151B86DCB3006FD35E /* Goal.swift */; };
+		ED6303721BA23A8D0099ED85 /* MainScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED6303711BA23A8D0099ED85 /* MainScene.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -216,6 +217,7 @@
 		DFE49C111B86DC7A006FD35E /* Character.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Character.swift; path = Source/Character.swift; sourceTree = "<group>"; };
 		DFE49C131B86DC9A006FD35E /* Obstacle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Obstacle.swift; path = Source/Obstacle.swift; sourceTree = "<group>"; };
 		DFE49C151B86DCB3006FD35E /* Goal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Goal.swift; path = Source/Goal.swift; sourceTree = "<group>"; };
+		ED6303711BA23A8D0099ED85 /* MainScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MainScene.swift; path = Source/MainScene.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -546,6 +548,7 @@
 			isa = PBXGroup;
 			children = (
 				DFE49C0E1B86DC5D006FD35E /* GamePlayScene.swift */,
+				ED6303711BA23A8D0099ED85 /* MainScene.swift */,
 			);
 			name = Scenes;
 			sourceTree = "<group>";
@@ -626,6 +629,7 @@
 		B77F1B2617B978D7009739AE /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0700;
 				LastUpgradeCheck = 0630;
 				ORGANIZATIONNAME = Apportable;
 				TargetAttributes = {
@@ -838,6 +842,7 @@
 				DFE49C0F1B86DC5D006FD35E /* GamePlayScene.swift in Sources */,
 				B73789871807631A0076A88C /* main.m in Sources */,
 				DFE49C141B86DC9A006FD35E /* Obstacle.swift in Sources */,
+				ED6303721BA23A8D0099ED85 /* MainScene.swift in Sources */,
 				DFE49C121B86DC7A006FD35E /* Character.swift in Sources */,
 				5B121038197487F2004C1E1D /* AppDelegate.m in Sources */,
 				DFE49C161B86DCB3006FD35E /* Goal.swift in Sources */,

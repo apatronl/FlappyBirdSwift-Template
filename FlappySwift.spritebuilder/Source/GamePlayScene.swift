@@ -59,6 +59,7 @@ class GamePlayScene : CCNode, CCPhysicsCollisionDelegate {
                 hero!.physicsBody.angularVelocity = CGFloat(angularVelocity)
             }
             // loop the ground whenever a ground image was moved entirely outside the screen
+            // Animation of ground
             for ground in grounds {
                 // get the world position of the ground
                 let groundWorldPosition = _gamePhysicsNode.convertToWorldSpace(ground.position)
